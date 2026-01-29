@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: elb
+app:
+  name: ${APP_NAME:default}
+server:
+  port: 8080
